@@ -1,5 +1,5 @@
 
-# SimpleTuner
+# SimpleTuner FLUX 1-click install and run
 
 Get your FLUX Lora running asap!
 Just get a 48GB VRAM machine and run two shell scripts and done.
