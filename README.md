@@ -1,10 +1,6 @@
 
 # SimpleTuner
 
-## Introduction
-
-SimpleTuner is a streamlined tool designed to simplify the process of fine-tuning models. This guide will walk you through the easy installation process and how to get started with your own dataset.
-
 ## Prerequisites
 
 To get started with SimpleTuner, you'll need access to a machine with the following specifications:
@@ -29,27 +25,22 @@ Follow these steps to install and set up SimpleTuner:
    git clone https://github.com/cyan2k/SimpleTuner
    ```
    
-2. **Run the Setup Script**
+2. **Run the Install Script**
 
-   Navigate to the SimpleTuner directory and run the setup script:
+   Navigate to the SimpleTuner directory and run the install script:
    ```bash
    cd SimpleTuner
-   bash setup.sh
+   bash install.sh
    ```
 
-3. **Prepare Your Dataset**
+   At the end you will get asked to provide a huggingface token. Create one here: https://huggingface.co/settings/tokens
 
-   Copy your dataset into the `SimpleTuner/dataset` directory. You can do this manually, or by running the provided script:
+3. **Run the Start Script**
+
+   The script prepares your dataset and the most important parameters
    ```bash
-   bash copy_ds.sh --path dataset
+   bash start.sh --path "path-to-your-dataset" --validation_prompt "your validation prompt" --seed 1234 --batch-size 4 --lr 2e-4
    ```
-
-## Training
-
-Once your environment is set up and your dataset is prepared, start the training process by running:
-```bash
-bash train.sh
-```
 
 ## Conclusion
 
