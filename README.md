@@ -1,6 +1,9 @@
 
 # SimpleTuner
 
+Get your FLUX Lora running asap!
+Just get a 48GB VRAM machine and run two shell scripts and done.
+
 ## Prerequisites
 
 To get started with SimpleTuner, you'll need access to a machine with the following specifications:
